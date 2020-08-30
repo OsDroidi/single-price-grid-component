@@ -1,0 +1,138 @@
+body {
+  font-size: 16px;
+  margin-top: 10%;
+  padding: 0;
+  font-family: "Karla", sans-serif;
+  background-color: hsl(218, 22%, 90%);
+}
+main {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+  width: 50%;
+  background-color: #ffffff;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+
+.col-left {
+  background-color: hsl(179, 62%, 43%);
+  flex: 1;
+  padding: 25px;
+}
+.col-right {
+  background-color: #4abebd;
+  flex: 1;
+  padding: 25px;
+}
+
+.text-title {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.text-subtitle {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.text-info {
+  padding-left: 25px;
+  padding-right: 25px;
+  color: #555555;
+  line-height: 1.5;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: hsl(71, 80%, 54%);
+  text-align: center;
+  display: block;
+  width: 60%;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.028), 0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042), 0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+  transition: background-color 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: hsl(71, 73%, 54%);
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .btn {
+    width: 70%;
+  }
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.sub-text-1 {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.price {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+span {
+  font-size: 13px;
+  color: hsl(204, 43%, 93%);
+}
+.sub-text-2 {
+  color: #ffffff;
+}
+
+.why-title {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.why-info {
+  color: hsl(204, 43%, 93%);
+  line-height: 1.5;
+}
