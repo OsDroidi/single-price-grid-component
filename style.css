@@ -94,6 +94,10 @@ main {
   .btn {
     width: 70%;
   }
+
+  main {
+        width: 60%;
+  }
 }
 
 .cta {
