@@ -17,8 +17,6 @@ main {
 }
 .container {
   display: flex;
-  justify-content: center;
-
   border-radius: 10px;
 }
 
@@ -37,15 +35,12 @@ main {
   padding-left: 25px;
   padding-right: 25px;
   color: hsl(179, 62%, 43%);
-  font-weight: 700;
-  font-size: 20px;
 }
 
 .text-subtitle {
   padding-left: 25px;
   padding-right: 25px;
   color: hsl(71, 73%, 54%);
-  font-weight: 700;
 }
 
 .text-info {
@@ -57,7 +52,6 @@ main {
 .center {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -144,5 +138,5 @@ span {
 footer {
   color: #555555;
   font-size: 12px;
-  padding-top: 5%;
+  padding-top: 4%;
 }
